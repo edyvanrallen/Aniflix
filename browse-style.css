@@ -1,8 +1,16 @@
-nav {
-    position: absolute;
+div {
+    position: fixed;
     top: 0%;
     left: 0%;
     background-color: black;
     height: 50px;
+    width: 100%;
+    z-index: 1;
+}
+
+img {
+    position: absolute;
+    top: 50px;
+    left: 0px;
     width: 100%;
 }
